@@ -110,18 +110,33 @@ body{
     font-family:var(--font-texto);
 }
 
-@media (max-width: 1000px){
-    .container{
+@media (max-width: 768px) {
+    .container {
         flex-direction: column-reverse;
-        padding: 6%;
+    }
+    .container__text {
+        width: 100%;
+    
     }
 
-    .container__img{
-        width: 60%;
+    .container__img {
+        width: 80%;
         margin-top: 8%;
     }
-    .container__text{
-        width: auto;
+
+    .container__title {
+        font-size: 2rem;
     }
-    
+
+    .container__paragraph{
+        font-size: 1.3rem;
+    }
+
+    .container__links {
+        margin-bottom: 8%;
+    }
+
+    .container__link {
+        width: 90%;
+    }
 }
