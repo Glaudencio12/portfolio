@@ -2,7 +2,7 @@
 
 # Meu portfólio 🙂
 
-### Venha conhcer meu portfólio clicando no link abaixo para acessa-lo:
+### Venha conhecer meu portfólio clicando no link abaixo para acessá-lo:
 
 [👉👉👉👉👉 Clique aqui 👈👈👈👈👈](https://portfolio-lac-six-66.vercel.app/) 
 
