@@ -1,0 +1,127 @@
+:root{
+    --cor-texto:#EEE8B2;
+    --font-texto: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*{
+    margin: 0; /* para resetar o espaçamento que vem por padrão; */
+    padding: 0;
+}
+body{
+    background-color: #081B1B;
+    color: #F6F6F6;
+    box-sizing: border-box;  /* faz com que os elementos filhos não saiam de dentro do elemeento pai na tela */
+}
+
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 10%;
+    background-color:#203B27 ;
+}
+
+.cabecalho__link{
+    font-size: 1.5rem;
+    font-weight: 400px;
+    color: #96CDB0;
+    text-decoration: none;
+}
+.titulo-destaque{
+    color: #C18D52;
+}
+
+.container__img{
+    width: 35%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    padding: 2% 12%;
+    gap: 82px;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.container__text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container__title{
+    font-size:  2.5rem; /* um rem equivale a 16px */
+    font-family:var(--font-texto);
+    color:var(--cor-texto);
+}
+
+.container__paragraph{ 
+    font-size: 1.5rem;
+    font-family:var(--font-texto);
+    color: var(--cor-texto);
+}
+
+.container__subtitle{
+    font-size: 24px;
+    font-family:var(--font-texto);
+    font-weight:400px;
+    color: var(--cor-texto);
+}
+
+.container__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.container__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 2PX, solid, #22D4FD;
+    text-decoration: none;
+    width: 50%;
+    color: var(--cor-texto);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container__link:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    color:  #C18D52;
+    text-align: center;
+    background-color: #203B37;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    padding: 18px;
+    font-family:var(--font-texto);
+}
+
+@media (max-width: 1000px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 6%;
+    }
+
+    .container__img{
+        width: 60%;
+        margin-top: 8%;
+    }
+    .container__text{
+        width: auto;
+    }
+    
+}
